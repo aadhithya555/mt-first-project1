@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="x-icon" href="image/pc.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/carousel.rtl.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+
+    <title>Front-End Technologies</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+      <div class="container-fluid">
+        <nav class="navbar bg-secondary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"> </a>
+          </div>
+        </nav>
+        <nav class="navbar bg-secondary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src=image/pc.png alt="Logo" width="35" height="35"/>
+              <div class="icon">
+                Front-End <b style="color: red">T</b>echnologies
+              </div>
+            </a>
+          </div>
+        </nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-danger"
+                aria-current="page"
+                href="index.html"
+              >
+                Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="Know More.html">Know More</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="Contact">Contact</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-danger"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Explore
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="Road Map To Front-End developer"
+                    >Road Map To Front-End developer</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Frame works">Frame works</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button type="button" class="btn btn-success">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg
+            class="bd-placeholder-img"
+            width="100%"
+            height="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect width="100%" height="100%" fill="	#20B2AA" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <img src="image/angularjs.jpg" class="img-fluid" alt="" />
+              <p>
+                <b> AngularJS</b> is a discontinued free and open-source
+                JavaScript-based web framework for developing single-page
+                applications. It was maintained mainly by Google and a community
+                of individuals and corporations. It aimed to simplify both the
+                development and the testing of such applications by providing a
+                framework for client-side model view Controller (MVC) and
+                model–view viewmodel (MVVM) architectures, along with components
+                commonly used in web applications and progressive web
+                applications.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="Know More.html">Know More</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg
+            class="bd-placeholder-img"
+            width="100%"
+            height="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect width="100%" height="100%" fill="	#20B2AA" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <img src="image/reactjs.png" class="img-fluid" alt="" />
+              <p>
+                React (also known as React.js or ReactJS) is a free and
+                open-source front-end JavaScript library for building user
+                interfaces based on UI components. It is maintained by Meta
+                (formerly Facebook) and a community of individual developers and
+                companies. React can be used as a base in the development of
+                single-page, mobile, or server-rendered applications with
+                frameworks like Next.js. However, React is only concerned with
+                state management and rendering that state to the DOM, so
+                creating React applications usually requires the use of
+                additional libraries for routing, as well as certain client-side
+                functionality.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="Know More.html">Know more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg
+            class="bd-placeholder-img"
+            width="100%"
+            height="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect width="100%" height="100%" fill="	#20B2AA" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <img src="image/bootstrap.png" class="img-fluid" alt="" />
+
+              <p>
+                Bootstrap is a free and open-source CSS framework directed at
+                responsive, mobile-first front-end web development. It contains
+                HTML, CSS and (optionally) JavaScript-based design templates for
+                typography, forms, buttons, navigation, and other interface
+                components
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="Know More.html">Know More</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="image/frontend.jpg" class="img-fluid" alt=""/>
+        </div>
+        <div class="col">
+          <h1>What is a Front-End Developer?</h1>
+          <p>
+            Front-end web development, also known as client-side development is
+            the practice of producing HTML, CSS and JavaScript for a website or
+            Web Application so that a user can see and interact with them
+            directly. The challenge associated with front end development is
+            that the tools and techniques used to create the front end of a
+            website change constantly and so the developer needs to constantly
+            be aware of how the field is developing.<br>
+              The objective of designing a site is to ensure that when the users
+              open up the site they see the information in a format that is easy
+              to read and relevant. This is further complicated by the fact that
+              users now use a large variety of devices with varying screen sizes
+              and resolutions thus forcing the designer to take into
+              consideration these aspects when designing the site. They need to
+              ensure that their site comes up correctly in different browsers
+              (cross-browser), different operating systems (cross-platform) and
+              different devices (cross-device), which requires careful planning
+              on the side of the developer.</br>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 style=" text-decoration:underline;">
+           TOP FRONT-END TECHNOLOGIES
+          </h1>
+           <p>
+         
+            Front-end technologies are an essential part of any business that strives to enhance user interaction, efficiency, and the look and feel of their website or application. Development teams use front-end technologies to create a website’s design, structure, animation, and everything you see on the screen when you open it.
+            
+             <br> A great deal of front-end technology is used because it facilitates the work of web coders and designers, increases their productivity, and makes the development process quicker, simpler, and more effective. Every year, new tools are introduced, rendering the old ones obsolete. But, due to the exponential growth of front-end technologies over the past few years, it can be difficult for developers to keep up with the sheer amount of technology at their disposal.</br>
+           </p>
+        
+        </div>
+        <div class="col">
+          <img src="image/pic2.jpg" class="img-fluid" alt=""/>
+        </div>
+       
+      </div>
+    </div>    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; Front-End Technologies</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
